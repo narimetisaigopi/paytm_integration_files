@@ -1,4 +1,4 @@
-{"MID":"gnQedB30464135000764",
+{"MID":"YourMerchantID",
 "ORDER_ID":"ORDER_ID8599",
 "CUST_ID":"CUST_ID969",
 "INDUSTRY_TYPE_ID":"Retail",
