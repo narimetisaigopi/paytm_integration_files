@@ -1,0 +1,10 @@
+{"MID":"gnQedB30464135000764",
+"ORDER_ID":"ORDER_ID8599",
+"CUST_ID":"CUST_ID969",
+"INDUSTRY_TYPE_ID":"Retail",
+"CHANNEL_ID":"WAP",
+"TXN_AMOUNT":"10",
+"WEBSITE":"https://securegw.paytm.in/theia/paytmCallback?ORDER_ID=ORDER_ID8599",
+"CALLBACK_URL":"https://securegw.paytm.in/theia/paytmCallback?ORDER_ID=ORDER_ID8599",
+"EMAIL":"sasa@gmail.com",
+"MOBILE_NO":"9876543210"}
