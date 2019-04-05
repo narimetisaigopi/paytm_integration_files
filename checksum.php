@@ -26,10 +26,9 @@
 
         $checkSum = getChecksumFromArray($paramList,PAYTM_MERCHANT_KEY);
         $paramList["CHECKSUMHASH"] = $checkSum;
-        print_r($paramList);
-
+    
         if(!empty($checkSum)){
-            echo json_encode(array("CHECKSUMHASH"=>$checkSum,"ORDER_ID"=>$decodedData["ORDER_ID"],"STATUS"=>"0"));
+            echo json_encode(array("CHECKSUMHASH"=>$checkSum,"ORDER_ID"=>$decodedData["ORDER_ID"],"STATUS"=>"1"));
         }else{
             echo json_encode(array("CHECKSUMHASH"=>$checkSum,"ORDER_ID"=>$decodedData["ORDER_ID"],"STATUS"=>"0"));
         }
